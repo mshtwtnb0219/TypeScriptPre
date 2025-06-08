@@ -21,6 +21,7 @@ const rl = createInterface({
 //     rl.close();
 // })
 // 条件演算時　
+// 条件式？真のときの式：偽のときの式
 rl.question('入力してください', (line) => {
     const num = Number(line);
     const message = 0 <= num && num < 100
