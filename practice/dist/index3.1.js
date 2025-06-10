@@ -28,4 +28,6 @@ const mes = {
 rl.question('なんか', (line) => {
     const num = Number(line);
     console.log(mes[num >= 0 ? "good" : "bad"]);
+    rl.close();
 });
+// スプレット構文
