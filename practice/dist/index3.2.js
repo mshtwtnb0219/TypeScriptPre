@@ -27,3 +27,16 @@ const data = {
 };
 data.aaa = 222;
 console.log(data.aaa);
+const aaa = {
+    foo: 123
+};
+// typeof キーワードで変数の型を得る
+// オブジェクト型の再利用
+const obj123 = {
+    foo: 123,
+    sss: "11"
+};
+const wswww = {
+    foo: 134,
+    sss: "afefe"
+};
